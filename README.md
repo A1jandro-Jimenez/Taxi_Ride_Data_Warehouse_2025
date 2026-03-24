@@ -56,4 +56,72 @@ This ensures:
 --- 
 
 ## 📊🤖 Data Analysis/AI Use
-  
+Objective
+Develop SQL-based analytics to deliver detailed insights like: 
+- KPIs
+- Demand Trends
+- Revenue Insights
+- Location Insights
+
+Genie is a Databricks feature that allows business teams to interact with their data using natural language. It uses generative AI tailored to your organization's terminology and data, with the ability to monitor and refine its performance through user feedback.
+<div align="center">
+<img src="docs/Genie_Ai.png" width="800">
+</div>
+
+Databricks also makes it easy to integrate to Power BI in order to create rich reports and dashboards without depending on IT staff or database administrators. 
+
+- [Genie](https://docs.databricks.com/aws/en/genie/): Link to learn more about Genie
+- [Power BI Intergration](https://docs.databricks.com/aws/en/partners/bi/power-bi): How to integarte Databricks warehouses into Power BI.
+
+---
+## 📂 Project Structure
+```
+taxi-dlt-project
+│
+├── Datasets           # Raw datasets used for the project (yellow_tripdata & taxi_zone_lookup)
+├   
+├── Piprline Files/    # Python and SQL scripts for ETL and transformations pipeline
+│   └── bronze         # Scripts for extracting and loading raw data
+│   └── gold           # Scripts for creating analytical models
+│   └── silver         # Scripts for cleaning and transforming data
+├
+├── docs/
+│   └── Genie_Ai.png                 #Screenshot of Genie AI interaction in Databricks
+│   └── expectations-flow-graph      # Chart explaning expectations feature for SDP
+│   └── taxidb_arch.png              # Draw.io file shows the project's architecture
+│   └── taxidb_star_schema.svg       # Dbdiagram.io file for data models (star schema)
+├
+└── README.md
+```
+---
+(yellow_tripdata & taxi_zone_lookup)
+## 🚀 Key Features
+
+✔ Medallion Architecture (Bronze/Silver/Gold)  
+✔ Declarative ETL with Spark Delecrative Tables/Views 
+✔ Data quality validation using SDP expectations  
+✔ Star schema data modeling  
+✔ Analytics-ready tables for BI tools  
+
+---
+
+
+## 🧠 Learnings
+
+- Built production-style ETL pipelines using SDP
+- Applied data warehouse modeling (star schema)  
+- Implemented data quality monitoring  
+- Improved performance using Delta Lake  
+
+---
+
+## 📎 Future Improvements
+
+- Add streaming ingestion (Kafka)  
+- Enrich location data with zone names  
+- Add machine learning (trip prediction)  
+
+---
+
+## 👤 Author
+**Alejadnro Jimenez Hernandez**
