@@ -46,4 +46,14 @@ This ensures:
 - transparency  
 - better debugging  
 - real-world pipeline practices
+
+<div align="center">
+<img src="docs/expectations-flow-graph-02ab5dd2011b18ad791c67c0e8449af6.png" width="800">
+</div>
+
+[About expectations](https://docs.databricks.com/aws/en/ldp/expectations): Read more about expectations here. 
+
+--- 
+
+## 📊🤖 Data Analysis/AI Use
   
