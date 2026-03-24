@@ -19,6 +19,6 @@ The pipeline transforms raw trip data into **analytics-ready tables and dashboar
 ## 🏗️ Architecture
 The data architecture for this project follows Medallion Architecture Bronze, Silver, and Gold layers:
 <div align="center">
-<img src="docs/taxidb_arch.png" width="1500">
+<img src="docs/taxidb_arch.png" width="2500">
 </div>
 
