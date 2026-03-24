@@ -22,3 +22,28 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 <img src="docs/taxidb_arch.png" width="2500">
 </div>
 
+1. Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from PARQUET files in S3 bucket into Databricks.
+2. Silver Layer: This layer includes data cleansing, standardization, validation and normalization processes to prepare data for analysis.
+3. Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
+---
+
+## 🛠️ Important Links & Tools:
+
+- [Datasets](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) : Access to the project dataset (Q1 of 2025).
+- [Databricks Free Edition](https://www.databricks.com/learn/free-edition): Learn and try out Databricks with the free edition. 
+- [About Spark Declerative Pipelines](https://docs.databricks.com/aws/en/ldp/concepts): Documention to read and learn more info about SDP.
+- [Git Repository](https://github.com): Set up a GitHub account and repository to manage, version, and collaborate on your code efficiently.
+- [DrawIO](https://www.drawio.com/): Design data architecture, models, flows, and diagrams.
+- [dbdiagram.io](https://dbdiagram.io/home): Design ER Digrams
+
+---
+
+## 🔍 Data Quality
+### Manage data quality with pipeline expectations
+Use expectations to apply quality constraints that validate data as it flows through ETL pipelines. Expectations provide greater insight into data quality metrics and allow you to fail updates or drop records when detecting invalid records.
+This ensures:
+- transparency  
+- better debugging  
+- real-world pipeline practices
+  
