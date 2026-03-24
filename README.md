@@ -93,8 +93,7 @@ taxi-dlt-project
 ├
 └── README.md
 ```
----
-(yellow_tripdata & taxi_zone_lookup)
+
 ## 🚀 Key Features
 
 ✔ Medallion Architecture (Bronze/Silver/Gold)  
